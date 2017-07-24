@@ -1,0 +1,10 @@
+[Core]
+Name = AliBot
+Module = alibot
+
+
+[Documentation]
+Description = help me do stuff on telegram ok
+
+[Python]
+Version = 3
