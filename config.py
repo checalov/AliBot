@@ -84,7 +84,7 @@ BOT_DATA_DIR = os.path.join(os.getcwd(), 'data')
 # locally before publishing it. Note that you can specify only a single
 # directory, however you are free to create subdirectories with multiple
 # plugins inside this directory.
-BOT_EXTRA_PLUGIN_DIR = r'C:\Users\Checalov\PycharmProjects\AliExpressBot'
+BOT_EXTRA_PLUGIN_DIR = os.getcwd('BOT_EXTRA_PLUGIN_DIR', os.getcwd())
 
 # If you use an external backend as a plugin,
 # this is where you tell Errbot where to find it.
